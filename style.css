@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+}
+.nav{
+    background-color: black;
+    width: 1460px;
+    height: 50px;
+}
+#nav{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color:white;
+    padding-left: 25px;
+    padding-top:15px;
+}
+#introduction{
+    background-image: url('./Assets/carousel.png');
+    background-repeat: no-repeat;
+    height: 500px;   
+    width: 1460px;
+}
+#intro{
+  color:white;
+  padding-left: 555px;
+  padding-top: 100px;
+    
+}
+#name{
+    color: #241468;
+    font-weight: bolder;
+}
+.main{
+    display: flex;
+    flex: start;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#about{
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#abouts{
+    width:1360px;
+    font-stretch: expanded;
+    padding-left: 25px;
+}
+#f{
+    padding-top: 75px;
+}
+#b{
+    position: relative;
+    padding-top: 10px;
+}
+#frontend{
+    float: left;
+    padding: 45px;
+    height: 350px;
+    width: 350px;
+}
+#backend{
+    float: right;
+    height: 350px;
+    width: 350px;
+    padding: 35px;
+    position: relative;
+    bottom: 30px;
+}
+.pro{
+    position: relative;
+    margin-top: 95px;
+    background-color: aliceblue;
+    width: max-content;
+    height: max-content;
+}
+#prohead{
+    position: relative;
+    top:55px;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bolder;
+    align-items:center;
+}
+
+#proj{
+    margin-top: 95px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 10px 5px;
+    padding:10px;
+    margin-left: 5px;
+    border: 2px solid black;
+    width: 960px;
+    height: max-content;
+    border-radius: 10px;
+    }
+
+
+    #proje{
+        margin-top:15px;
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        box-shadow: 10px 5px;
+        padding:10px;
+        margin-left: 500px;
+        border: 2px solid black;
+        width: 960px;
+        height: max-content;
+        border-radius: 10px;
+        }
+.tech{
+    background-color:whitesmoke;
+    position: relative;
+    display: flex;
+    gap:50px;
+    flex-direction: row;
+    top:30px;
+    width: 1560px;
+    height: 110px;
+}
+#logo3{
+    width: 125px;
+    height: 105px;
+    margin: 0px;
+}
+
+
+
+.footer{
+    width:1560px;
+    height: 150px;
+    background-color: rgb(225, 222, 222);
+    display:flex;
+    justify-content: center;
+
+}
+#footer{
+    margin-top: 70px;
+    font-size: medium;
+}
+
